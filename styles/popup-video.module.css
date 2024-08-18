@@ -1,0 +1,146 @@
+.videoPage {
+    padding: 3rem;
+    background: #fafafa;
+  }
+  
+  .videoBx {
+    margin-bottom: 1rem;
+    padding: 14px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .videoBx:hover {
+    margin-top: -5px;
+    transform: translate(0, 0);
+  }
+  
+  .videoBx figure {
+    margin: 0;
+    padding: 6px 6px 0 6px;
+    box-shadow: rgba(167, 167, 167, 0.5) 0 0 15px;
+  }
+  
+  .videoCatName {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .videoCatName a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .videoCatName a:hover {
+    color: #2e5388;
+  }
+  
+  .responsiveIframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: #fff solid 5px;
+    box-shadow: rgba(167, 167, 167, 0.5) 0 0 15px;
+  }
+  
+  .responsiveIframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal-body iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  
+  .SctnVideos {
+    width: 100%;
+  }
+  
+  .videoThumbBx {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .vdoPlayIcon {
+    width: 50px;
+    height: 39px;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    line-height: 40px;
+    z-index: 1;
+    color: #fff;
+    border-radius: 100px;
+    background: red;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    outline: 1px solid #fff;
+    border-radius: 29%;
+    outline-offset: 4px;
+  }
+  
+  .vdoPlayIcon a {
+    color: #fff;
+  }
+  
+  .SctnVideos p {
+    line-height: 1.4;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .videoModal .btnclose {
+    position: absolute;
+    right: -7px;
+    background-color: #fff;
+    opacity: 1;
+    background-size: 0.8rem;
+    border-radius: 0;
+  }
+  
+  .videoModal .btnclose:hover {
+    background-color: #ddd;
+  }
+  
+  .hmBannerMob {
+    display: flex;
+  }
+  
+  .slidrNmbr {
+    display: none;
+  }
+  
+  @media (min-width: 991px) and (max-width: 1024px) {
+    .videoPage {
+      padding: 2rem;
+    }
+  
+    .videoBx {
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 990px) {}
+  
+  @media all and (max-width: 768px) {
+    .videoPage {
+      padding: 2rem 0;
+    }
+  
+    .videoBx {
+      padding: 5px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 520px) {}
+  
+  @media (min-width: 180px) and (max-width: 480px) {}

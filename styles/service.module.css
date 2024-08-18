@@ -1,0 +1,130 @@
+.srvcPgOne .SctnPgHdng {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #2e5388;
+}
+
+
+
+.srvcInnerSctn {
+  padding: 5rem 0 3rem;
+}
+
+.srvcInnerSctn .SctnHdng,
+.PostOperativeCare .SctnHdng {
+  text-transform: none;
+  color: #2e5388;
+  font-weight: 600;
+  font-size: 2.3rem !important;
+  line-height: 1.3;
+  margin-bottom: 1.4rem;
+  font-family: walkway, Helvetica, sans-serif;
+}
+
+.nrmlList ul,
+.AbtDctrSctn .AbtDctrSctnTxt ul {
+  margin: 0;
+  padding: 0 0 1rem 0;
+  list-style: none;
+}
+
+.nrmlList ul li,
+.AbtDctrSctn .AbtDctrSctnTxt ul li {
+  margin: 10px 0;
+  padding: 0 0 0 24px;
+  line-height: 1.5;
+  /* font-weight: 600; */
+  position: relative;
+}
+
+.nrmlList ul li::before,
+.AbtDctrSctn .AbtDctrSctnTxt ul li::before {
+  position: absolute;
+  font-size: 0.5rem;
+  color: #2e5388;
+  font-family: FontAwesome;
+  left: 2px;
+  top: 6px;
+  content: "\f04d";
+  transform: rotate(45deg);
+}
+
+.procedureSctn {
+  padding-top: 5rem;
+}
+
+.procedureSctn .SctnHdng {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #2e5388;
+  font-size: 2.2rem;
+  font-family: walkway, Helvetica, sans-serif;
+}
+
+.PostOperativeCare {
+  padding: 0 3rem;
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {}
+
+@media (min-width: 769px) and (max-width: 990px) {}
+
+@media all and (max-width: 768px) {
+  .srvcInnerSctn {
+    padding: 2rem 0;
+  }
+
+  .PostOperativeCare {
+    padding: 2rem 0.2rem;
+  }
+
+  .srvcFAQs {
+    padding: 0;
+  }
+
+  .srvcInnerSctn .SctnHdng,
+  .procedureSctn .SctnHdng,
+  .srvcPgOne .SctnPgHdng,
+  .PostOperativeCare .SctnHdng {
+    font-size: 1.6rem !important;
+    line-height: 1.3 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+  .PostOperativeCare ul {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 180px) and (max-width: 480px) {
+  .PostOperativeCare ul {
+    padding-left: 20px;
+  }
+
+  .no_padding_t {
+    padding-top: 0px !important;
+  }
+
+  .no_padding_b {
+    padding-bottom: 0px !important;
+  }
+
+
+  .procedureSctn {
+    padding-top: 0px !important;
+  }
+}
+
+p span.marker {
+  background-color: #fdfdfd;
+  padding: 4px 15px;
+  box-shadow: 0px 0px 20px #2e5388;
+  display: inline-block;
+  line-height: 23px;
+  font-style: italic;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}

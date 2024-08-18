@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 56" width="69" height="56">
+	<title>Chaitali Landing Page</title>
+	<defs>
+		<image aria-label="”"  width="69" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAA4CAMAAACc78UEAAAAAXNSR0IB2cksfwAAADNQTFRFAAAAy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNy1tNGZk7eQAAABF0Uk5TADBwr7/v358gEFCPz/+AYEBPkoueAAACIElEQVR4nI1XWxaFIAhMU0uTuvtf7S1RswJ0fvEMj+FR01Sg9GysM4teJwE+bCaCMXugrCFChTlYjt3WV3Z7u/MGHog/kiTY57Pdt1b1sl4PCJLt8yoqkQRg+ZAsxCtbaTxF8qU5yFeVxpBmAP0gWWlf4LA2gSEB+9CAyidhS+bImcG0obCv4NJT8WZo9Nb8q8vZLrA0BeaKd+HMfBbMcHcVU9uETXYC9yhIr5zs5E5Jqt6VksgSC8tPZAlyRjCU0Tl0YnVBDbHMotJNx4ghm07dKovQdanvnGSvUgsTkKSmJz7jXlbsNF4Qx7FtO24z5FjoVZcxPo9STu0W53PCFcLTPG4BS5MXkeKEmh7geqtq0JwrcLrq+mSZ1rbTzU+/Wc79uySx4hLu4M30xqpN8mf2czg8lXeDvNI3xlyQ58Iz5rwJ2IOdgSE71o4sirUjsNwzZ8aMbYcks2jOjBl9b/ULWBf2g+cYKguOIF+WTax9ge8IGcWqFQRZgnUsoUVOKLW27SWEV4hPyA0pdIwoJH6xVl/fUcvwY6FocRJRZtsLBRcxq2N47wwaUUwbl3lkrBWL6Au/W+3YNHOlVXGo4ZCEq12+Tb2iLOL6ySelI7KP0ib08xBJ+TOhSbQdIVnzxrYkyVEOm1jYtdxHUsRQOJwksa831pDzXn6gZnEb1H8gRkMcQEf+UrYhYyDsiJ1L33ZHJ8Usutr37mq7MJPF/wPwbljj0nibhwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="” copy" href="#img1" x="0" y="0" />
+</svg>

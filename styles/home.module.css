@@ -1,0 +1,349 @@
+.hmBanner {
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  height: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.hmBannerMob {
+  width: 100%;
+}
+
+.hmBannerBox {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  background-position: left;
+  background-size: cover;
+  transition: 0.7s;
+}
+
+.hmBannerBox::after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* .hmBannerBox:hover {
+  flex: 1.2;
+  height: 550px;
+} */
+
+.hmBannerBox:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hmBannerBox.a1 {
+  background-image: url("../public/images/face.jpg");
+}
+
+.hmBannerBox.a2 {
+  background-image: url("../public/images/body.jpg");
+  color: #fff;
+}
+
+.hmBannerBox.a3 {
+  background-image: url("../public/images/breas-t.jpg");
+  color: #fff;
+}
+
+.hmBannerBox.a4 {
+  background-image: url("../public/images/non-surgical.jpg");
+}
+
+.hmBannerBox .BnrTxt {
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  opacity: 1;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  top: 75%;
+  transition: all 0.5s;
+}
+
+.hmBannerBox:hover .BnrTxt {
+  bottom: 1rem;
+  top: 28%;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.bnrSrvCatName {
+  font-family: "walkway", Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hmBannerBox .BnrTxt .BnrServList {
+  font-family: "walkway", Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  opacity: 0;
+  font-size: 1.1rem;
+  transition: 0.7s;
+  line-height: 1.7;
+}
+
+.hmBannerBox .BnrTxt .BnrServList a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hmBannerBox .BnrTxt .BnrServList a:hover {
+  text-decoration: underline;
+}
+
+.hmBannerBox:hover .BnrTxt .BnrServList {
+  opacity: 1;
+}
+
+.SctnVideos {
+  width: 100%;
+}
+
+.videoThumbBx {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.vdoPlayIcon {
+  width: 50px;
+  height: 39px;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  line-height: 40px;
+  z-index: 1;
+  color: #fff;
+  border-radius: 100px;
+  background: red;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  outline: 1px solid #fff;
+  border-radius: 29%;
+  outline-offset: 4px;
+}
+
+.vdoPlayIcon a {
+  color: #fff;
+}
+
+.SctnVideos p {
+  line-height: 1.4;
+  padding: 0;
+  font-weight: bold;
+}
+
+.videoModal .btnclose {
+  position: absolute;
+  right: -24px;
+  background-color: #fff;
+  opacity: 1;
+  background-size: 0.8rem;
+  border-radius: 0;
+}
+
+.videoModal .btnclose:hover {
+  background-color: #ddd;
+}
+
+.hmBannerMob {
+  display: flex;
+}
+
+.slidrNmbr {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* .hmBannerBox:hover {
+    flex: 2;
+    height: 550px;
+  } */
+}
+
+@media (min-width: 770px) and (max-width: 821px) {
+  .bnrSrvCatName {
+    font-size: 1.4rem;
+  }
+
+  .hmBannerBox:hover .BnrTxt {
+    top: 23%;
+  }
+
+  .hmBannerBox .BnrTxt .BnrServList {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .hmBannerBox {
+    background-position: 50% 0;
+  }
+
+  .hmBannerBox.a1 {
+    background-position: 10% 0;
+  }
+
+  .hmBannerBox.a4 {
+    background-position: 75% 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .bnrSrvCatName {
+    font-size: 1.4rem;
+  }
+
+  .hmBannerBox:hover .BnrTxt {
+    top: 23%;
+  }
+
+  .hmBannerBox .BnrTxt .BnrServList {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .hmBannerBox {
+    background-position: 50% 0;
+  }
+
+  .hmBannerBox.a1 {
+    background-position: 10% 0;
+  }
+
+  .hmBannerBox.a4 {
+    background-position: 75% 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+
+  /* Start mobile slider */
+  .hmBannerBox .BnrTxt {
+    top: 80%;
+    height: 40px;
+    overflow: hidden;
+  }
+
+  .BnrServList {
+    display: none;
+  }
+
+  .bnrSrvCatName {
+    top: 80%;
+  }
+
+  .hmBanner {
+    width: 100%;
+    height: auto;
+    /* padding-bottom: 2rem; */
+    padding-bottom: 0!important;
+    background: none;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slidrNmbr {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+    position: absolute;
+    display: none;
+  }
+
+  .slidrNmbr>a {
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    border: #b2b7be solid 2px;
+    background: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0.2rem;
+    position: relative;
+  }
+
+  .slidrNmbr>a:hover,
+  .slidrNmbr>a:active {
+    border-color: #2e5388;
+  }
+
+  .hmBannerMob {
+    display: flex;
+    height: 70vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .hmBannerMob::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+  }
+
+  .hmBannerMob::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+
+  .hmBannerMob::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .hmBannerMob>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 70vh;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    pointer-events: none;
+    background-position: 50% 0;
+  }
+
+  /* End mobile slider */
+}
+
+@media all and (max-width: 768px) {
+  .btnclose {
+    padding: 8px;
+    right: 0 !important;
+    z-index: 9;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {}
+
+@media (min-width: 180px) and (max-width: 480px) {
+  .bnrSrvCatName {
+    font-size: 1.6rem;
+  }
+}

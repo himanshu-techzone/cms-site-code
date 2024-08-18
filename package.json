@@ -1,0 +1,27 @@
+{
+  "name": "aestiva",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "start1": "next start",
+    "lint": "next lint",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "bootstrap": "^5.3.3",
+    "next": "^12.3.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.10.2",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
+}

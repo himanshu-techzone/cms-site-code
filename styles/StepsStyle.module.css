@@ -1,0 +1,99 @@
+.helpSteps {
+  padding: 3rem;
+}
+
+.helpSteps .helpStepsTab {
+  display: block;
+}
+
+.helpSteps .helpStepsTab .formBox .btnSubmit {
+  background: #1261a0;
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: none;
+  font-weight: bold;
+}
+
+.helpSteps .helpStepsTab .formBox .infld {
+  border: #ccc solid 1px;
+}
+
+.helpSteps .helpStepsTab .helpStepsItem {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.helpSteps .helpStepsTab .helpStepsItem:hover,
+.helpSteps .helpStepsTab .helpStepsItem.active {
+  color: #1261a0;
+}
+
+.helpSteps .helpStepsTab .helpStepsItem:hover .circleBox,
+.helpSteps .helpStepsTab .helpStepsItem.active .circleBox {
+  border-color: #1261a0;
+}
+
+.helpSteps .helpStepsTab .helpStepsItem .circleBox {
+  margin: 0 auto 15px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border: #dad7d7 solid 18px;
+  border-radius: 100%;
+  display: flex;
+}
+
+.helpSteps .helpStepsTab .helpStepsItem p {
+  margin: 0;
+}
+
+.helpSteps .helpStepsTab .stepTabs li::before {
+  display: none !important;
+}
+
+.helpSteps .helpStepsTab button.BtnRdMore {
+  padding: 9px 30px;
+  margin: 2px;
+  font-size: 16px;
+}
+
+.helpSteps .helpStepsTab .TabsBrdr li::before {
+  display: none;
+}
+
+.helpSteps .helpStepsTab .TabsBrdr button {
+  outline: none !important;
+  border: none;
+  padding: 3px 0;
+  width: 70px;
+  margin: 1.5rem 0.2rem 2rem;
+  background: #b2b7be;
+}
+
+.helpSteps .helpStepsTab .TabsBrdr button:focus {
+  outline: none;
+  border: none;
+}
+/* 
+.helpSteps .helpStepsTab .TabsBrdr button.active {
+  background: #000;
+} */
+
+.stepTabs li::before {
+  display: none !important;
+}
+
+#stepOne.active .TabsBrdr li:nth-child(1) button {
+  background: #516f99;
+}
+#stepTwo.active .TabsBrdr li:nth-child(2) button {
+  background: #516f99;
+}
+
+#stepThree.active .TabsBrdr li:nth-child(3) button {
+  background: #516f99;
+}

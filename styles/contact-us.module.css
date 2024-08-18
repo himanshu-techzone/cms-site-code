@@ -1,0 +1,170 @@
+.SmalBannerSize .AboutBannerCont {
+  top: 40%;
+}
+
+.ContactUsPage {
+  padding: 3rem 0;
+  background: #fafafa;
+}
+
+.ContactUsPage h3 {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "walkway", Helvetica, sans-serif;
+}
+
+.contactUsInfobx {
+  padding: 0 3rem;
+  display: table;
+  font-size: 1.1rem;
+}
+
+.contactUsInfobx .contactUsInfoRow {
+  padding-bottom: 1.3rem;
+}
+
+.contactUsInfobx .contactUsInfoRow p {
+  margin: 0;
+}
+
+.contactUsInfobx .contactUsInfoRow:hover i {
+  color: #fff;
+  background: #2e5388;
+  border-color: #2e5388;
+}
+
+.contactUsInfobx .contactUsInfoClmn {
+  display: table-cell;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.contactUsInfobx .contactUsInfoClmn span.cntAdrsHd {
+  color: #2e5388;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "walkway", Helvetica, sans-serif;
+}
+
+.contactUsInfobx a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contactUsInfobx a:hover {
+  color: #2e5388;
+}
+
+.contactUsInfobx .cntctIconBx {
+  width: 75px;
+  padding-top: 7px;
+}
+
+.contactUsInfobx .cntctIconBx i {
+  font-size: 1.4rem;
+  height: 50px;
+  width: 50px;
+  color: #2e5388;
+  border: #2e5388 solid 1px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .contactUsInfobx {
+    padding: 0 0 0 2rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 821px) {
+  .ContactUsPage {
+    padding: 2rem 0;
+  }
+  .ContactUsPage h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .contactUsInfobx {
+    padding: 2rem 0 1rem;
+    display: block;
+  }
+
+  .contactUsInfobx .contactUsInfoRow {
+    float: left;
+    display: block;
+    width: 33.3%;
+    text-align: center;
+  }
+  .contactUsInfobx .contactUsInfoClmn {
+    display: block;
+    text-align: center;
+  }
+  .contactUsInfobx .cntctIconBx {
+    margin: 0 auto 15px;
+    display: block;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+}
+@media (min-width: 767px) and (max-width: 769px) {
+  .ContactUsPage h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .contactUsInfobx {
+    padding: 2rem 0 1rem;
+    display: block;
+  }
+
+  .contactUsInfobx .contactUsInfoRow {
+    float: left;
+    display: block;
+    width: 33.3%;
+    text-align: center;
+  }
+  .contactUsInfobx .contactUsInfoClmn {
+    display: block;
+    text-align: center;
+  }
+  .contactUsInfobx .cntctIconBx {
+    margin: 0 auto 15px;
+    display: block;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .ContactUsPage {
+    padding: 2rem 0;
+  }
+  .ContactUsPage h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+  .ContactUsPage h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contactUsInfobx {
+    padding: 2rem 0 1rem;
+    display: block;
+  }
+}
+
+@media (min-width: 180px) and (max-width: 480px) {
+  .ContactUsPage {
+    margin-top: 1rem;
+  }
+  .ContactUsPage h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contactUsInfobx {
+    padding: 2rem 0 1rem;
+    display: block;
+  }
+}

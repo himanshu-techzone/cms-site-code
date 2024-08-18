@@ -1,0 +1,61 @@
+.SctnVideos {
+  width: 100%;
+}
+
+.videoThumbBx {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.vdoPlayIcon {
+  width: 50px;
+  height: 39px;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  line-height: 40px;
+  z-index: 1;
+  color: #fff;
+  border-radius: 100px;
+  background: red;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  outline: 1px solid #fff;
+  border-radius: 29%;
+  outline-offset: 4px;
+}
+
+.vdoPlayIcon a {
+  color: #fff;
+}
+
+.SctnVideos p {
+  line-height: 1.4;
+  padding: 0;
+  font-weight: bold;
+}
+
+.videoModal .btnclose {
+  position: absolute;
+  right: -8px;
+  background-color: #fff;
+  opacity: 1;
+  background-size: 0.8rem;
+  border-radius: 0;
+  z-index: 99;
+}
+
+.videoModal .btnclose:hover {
+  background-color: #ddd;
+}
+
+.hmBannerMob {
+  display: flex;
+}
+
+.slidrNmbr {
+  display: none;
+}

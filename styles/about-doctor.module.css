@@ -1,0 +1,327 @@
+.AbtDctrSctn {
+  padding: 5rem 0 3rem;
+  background: url(../public/images/background-pic.jpg) top center no-repeat;
+  background-size: 100%;
+}
+
+.AbtDctrSctn .drPicZindex {
+  z-index: 1;
+  position: relative;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt p {
+  font-size: 18px;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+  color: #2e5388;
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  font-family: "walkway", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt .certificationBx {
+  background: #2d5387;
+  position: absolute;
+  padding: 2rem 5rem;
+  color: #fff;
+  bottom: 10%;
+  right: 0;
+  width: 44vw;
+  z-index: 0;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt .certificationBx ul {
+  text-align: center;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.AbtDctrSctn .AbtDctrSctnTxt .certificationBx ul li {
+  margin: 0;
+  display: inline-block;
+  padding: 0;
+  width: 25%;
+}
+
+.careerSctn .SctnHdng {
+  font-weight: 600;
+  color: #2e5388;
+  margin-bottom: 2rem;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  font-family: walkway, Helvetica, sans-serif;
+}
+
+.careerSctn .subHdng {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #2e5388;
+  margin-bottom: 1rem;
+}
+
+.careerSctn ul {
+  margin: 0;
+  padding: 0 0 1rem 0;
+  list-style: none;
+}
+
+.careerSctn ul li {
+  margin: 20px 0;
+  padding: 0 0 0 24px;
+  line-height: 1.5;
+  position: relative;
+  font-size: 18px;
+}
+
+.careerSctn ul li::before {
+  position: absolute;
+  font-size: 0.5rem;
+  color: #2e5388;
+  font-family: FontAwesome;
+  left: 2px;
+  top: 6px;
+  content: "\f04d";
+  transform: rotate(45deg);
+}
+
+ul.AboutHsptlTxt1 {
+  padding: 0;
+  margin: 1rem 0 15px 0;
+  list-style: none;
+  /* font-family: "walkway", Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px; */
+  font-size: 18px;
+}
+
+ol.AboutHsptlTxt1 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-size: 18px;
+}
+
+ol.AboutHsptlTxt1 li {
+  padding: 0px 5px 8px 0px;
+  margin-left: 22px;
+  line-height: 28px;
+  color: #000;
+}
+
+section.faq_section {
+  padding: 0;
+}
+
+ul.AboutHsptlTxt1 li {
+  padding: 0px 5px 8px 25px;
+  margin: 0;
+  line-height: 28px;
+  color: #000;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 49%;
+}
+
+ul.AboutHsptlTxt1 li:before {
+  position: absolute;
+  font-size: 0.5rem;
+  color: #2e5388;
+  font-family: FontAwesome;
+  left: 6px;
+  top: 2px;
+  content: "\f04d";
+  transform: rotate(45deg);
+}
+
+p.About_surgeon_para {
+  font-size: 18px;
+}
+
+.know_more_hd {
+  font-size: 30px;
+  color: #2e5388;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  font-family: "walkway", Helvetica, sans-serif;
+}
+
+.careerSctn table {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+    min-width: 100%;
+}
+.careerSctn table tr:nth-child(even) {
+  background-color: #dce4ef;
+}
+.careerSctn table tr td {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 18px;
+}
+.careerSctn table tr {
+  background-color: #fff;
+}
+
+.careerSctn table tr td ul{
+  padding-bottom: 0px;
+}
+.careerSctn table tr td ul li{
+  margin: 0;
+}
+
+@media (min-width: 1281px) and (max-width: 1367px) {
+  .AbtDctrSctn .AbtDctrSctnTxt {
+    padding-right: 1rem;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 2.5rem;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .certificationBx {
+    bottom: 4%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .AbtDctrSctn {
+    padding: 2rem;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt {
+    padding: 0 15px;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 2rem;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .certificationBx {
+    position: unset;
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .leftBox {
+    width: 44% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+  .AbtDctrSctn {
+    padding: 2rem 0;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .certificationBx {
+    position: unset;
+    width: 100%;
+    padding: 15px 5px;
+  }
+
+  .leftBox {
+    position: unset !important;
+    width: 100% !important;
+  }
+
+  ul.AboutHsptlTxt1 li {
+    padding: 0px 5px 0px 25px;
+    display: block;
+    width: 100%;
+  }
+
+  .know_more_hd {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+  .AbtDctrSctn {
+    padding: 2rem 0;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt {
+    padding: 15px 15px 0;
+  }
+
+  .AbtDctrSctn .AbtDctrSctnTxt .certificationBx {
+    position: unset;
+    width: 100%;
+    padding: 15px 5px;
+  }
+
+  .careerSctn .SctnHdng {
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .careerSctn ul li {
+    margin: 10px 0;
+  }
+
+  .careerSctn ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .SctnAbtDtr .leftBox {
+    padding: 1rem;
+  }
+
+  ul.AboutHsptlTxt1 li {
+    padding: 0px 5px 0px 25px;
+    display: block;
+    width: 100%;
+  }
+  .know_more_hd {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .careerSctn table tr td {
+    padding: 7px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 520px) {
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 180px) and (max-width: 480px) {
+  .AbtDctrSctn .AbtDctrSctnTxt .SctnHdng {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
